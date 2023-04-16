@@ -1,0 +1,16 @@
+$violet: hsl(263, 55%, 52%);
+$grayish-blue: hsl(217, 19%, 35%);
+$blackish-blue: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+$gray: hsl(0, 0%, 81%);
+$light-grayish-blue: hsl(210, 46%, 95%); // shadows
+$font-main: "Barlow Semi Condensed", sans-serif;
+
+// Changing the font color based on the background color
+// @function change-text-color($color) {
+//   @if (lightness($color) > 70) {
+//     @return $blackish-blue;
+//   } @else {
+//     @return $white;
+//   }
+// }
